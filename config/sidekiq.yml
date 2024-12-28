@@ -1,0 +1,28 @@
+---
+:verbose: false
+:concurrency: 15
+:queues:
+  - [critical, 4]
+  - [default, 4]
+  - [slow, 1]
+
+:schedule:
+  session_stopped_alerts:
+    every: "30m"
+    class: SessionStoppedAlertsWorker
+    queue: critical
+
+  threshold_exceeded_alerts:
+    every: "10m"
+    class: "ThresholdAlertsWorker"
+    queue: critical
+
+  airnow_import_measurements:
+    cron: "56 * * * *"
+    class: AirNowImportMeasurementsWorker
+    queue: slow
+
+  update_stream_hourly_averages:
+    cron: "1 * * * *"
+    class: UpdateStreamHourlyAveragesWorker
+    queue: slow

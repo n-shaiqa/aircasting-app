@@ -1,0 +1,256 @@
+{
+  "main": {
+    "header": "Welcome to the app!"
+  },
+  "stationValue": {
+    "avgPlaceholder": "Avg for {{date}}",
+    "altLogo": "Broadcasting logo"
+  },
+  "navbar": {
+    "altLogo": "Aircasting logo",
+    "altMenu": "Menu icon",
+    "altHabitatMapLogo": "HabitatMap logo",
+    "altClose": "Close icon",
+    "altSearch": "Search icon",
+    "altAirbeam": "AirBeam icon",
+    "altGoBack": "Go back icon",
+    "goBackToMap": "Back to map",
+    "goBackToSessions": "Back to sessions",
+    "goBackToSession": "Back to session",
+    "mapPage": "Map page",
+    "refreshMap": "Refresh map",
+    "realtimeMapUpdates": "update when map moves",
+    "sections": {
+      "getAirbeam": "Get AirBeam",
+      "airbeam": "AirBeam",
+      "userStories": "User Stories",
+      "howItWorks": "How It Works",
+      "faq": "FAQ",
+      "usersGuide": "AirBeam3 User’s Guide",
+      "airbeamBuyNow": "Buy it Now",
+      "airbeamMiniUsersGuide": "AirBeam Mini User’s Guide",
+      "aircasting": "AirCasting",
+      "maps": "AirCasting Maps",
+      "androidApp": "Android App",
+      "iOSApp": "iOS App",
+      "actions": "AirCasting Actions",
+      "about": "About HabitatMap",
+      "history": "History & People",
+      "press": "Press",
+      "blog": "TakingSpace Blog",
+      "donate": "Donate",
+      "aircastingPage": "AirCasting page",
+      "openMenu": "Open menu",
+      "habitatMapPage": "HabitatMap page"
+    },
+    "filter": "Filters",
+    "altFilter": "Filters icon",
+    "timelapse": "Timelapse",
+    "altTimelapse": "Clock icon",
+    "copyLink": "Copy link",
+    "altCopyLink": "Chain icon",
+    "share": "Share",
+    "altShare": "Share icon"
+  },
+  "calendarHeader": {
+    "stationLabel": "Station name",
+    "profile": "Profile",
+    "sensor": "Sensor",
+    "lastUpdate": "Last update",
+    "updateFrequencyTitle": "Updates every",
+    "copyLink": "COPY LINK",
+    "exportSession": "DOWNLOAD DATA",
+    "altAlert": "Be notified about new measurements",
+    "altShareLink": "Get link to the session you are viewing",
+    "altExportSession": "Export the session you are exploring",
+    "localTime": "{{lastUpdate}} (local time)",
+    "legendTitle": "Measurements legend",
+    "calendarTitle": "Measurements calendar",
+    "dateRange": "Date range",
+    "altCopyIcon": "Charm icon",
+    "graphTitle": "Measurements graph",
+    "selectRange": "Select date range:"
+  },
+  "headerToggle": {
+    "arrowIcon": "Arrow Icon"
+  },
+  "thresholdConfigurator": {
+    "disclaimer": "Set values for color breakpoints",
+    "emptyInputMessage": "Please enter a valid number",
+    "validValueMessage": "Value must be between {{minValue}} and {{maxValue}}",
+    "maxLessThanMinMessage": "The maximum value should be higher than {{minValue}}",
+    "minGreaterThanMaxMessage": "The minimum value should be lower than {{maxValue}}",
+    "resetButton": "Reset ranges",
+    "resetButtonDesktop": "Reset to default",
+    "altResetButton": "Reset the threshold values to default",
+    "altUniformDistribution": "Distribute the measurement thresholds uniformly",
+    "uniformDistributionButton": "Fit\nto scale",
+    "uniformDistributionButtonDesktop": "Scale to fit data",
+    "sameValuesError": "Can't distribute thresholds when Min and Max values are both the same.",
+    "noValidDataErrorMessage": "Insufficient data to distribute thresholds.",
+    "invalidOrderMessage": "The values should be in ascending order"
+  },
+  "notFoundPage": {
+    "header": "Page not found",
+    "message": "The page you are looking for does not exist."
+  },
+  "exportDataModal": {
+    "title": "Export data to e-mail",
+    "exportButton": "email data",
+    "emailPlaceholder": "email address",
+    "confirmationMessage": "Exported sessions will be emailed within minutes. The email may end up in your spam folder.",
+    "invalidEmailMessage": "Please enter a valid email address.",
+    "sessionLimitMessage": "You can't export more than {{limit}} sessions at a time. Use the time frame filter to chunk your exports or use our API.",
+    "noResultsMessage": "No results to export"
+  },
+  "calendarPage": {
+    "forwardScrollButton": "Move calendar page one step forward",
+    "backScrollButton": "Move calendar page one step back"
+  },
+  "map": {
+    "mapLabel": "Map",
+    "satelliteLabel": "Satellite",
+    "terrainLabel": "Terrain",
+    "labelsLabel": "Labels",
+    "mapTerrainLabel": "Map view + Terrain",
+    "mapSatelliteLabel": "Satellite view",
+    "mapViewLabel": "Map view",
+    "mapHybridLabel": "Satellite view + Labels",
+    "searchPlaceholder": "Search for a location",
+    "searchIcon": "Search location icon",
+    "toggleMenu": "Toggle menu",
+    "listSessions": "Sessions",
+    "altListSessions": "List all the sessions",
+    "altClose": "Close the content",
+    "altDirect": "Navigate to calendar view for given session",
+    "legendTile": "Legend",
+    "altLegendTile": "Show the measurements legend for the map",
+    "legend": {
+      "title": "Legend customization",
+      "resetRangesButton": "Reset ranges",
+      "applyButton": "Apply"
+    },
+    "results": "({{results}} of {{fetchableSessionsCount}})",
+    "mobileResults": "Sessions list ({{results}} of {{fetchableSessionsCount}})",
+    "exportButton": "Export",
+    "clusterInfo": {
+      "average": "avg",
+      "stations": "stations",
+      "measurements": "measurements",
+      "altClusterIcon": "Cluster icon"
+    },
+    "rectangleInfo": {
+      "average": "avg.",
+      "contributors": "contributors",
+      "loading": "Fetching...",
+      "measurements": "measurements"
+    },
+    "timelapsTile": "Timelapse",
+    "altTimelapseTile": "Show the timelapse for the map",
+    "note": {
+      "date": "Date",
+      "note": "Note",
+      "altOpenNote": "Open note",
+      "altNext": "Next note",
+      "altPrevious": "Previous note",
+      "altPhoto": "Note photo"
+    }
+  },
+  "sessionDetailsModal": {
+    "calendar": "Calendar",
+    "averageValue": "avg.",
+    "copyLink": "Copy link icon",
+    "calendarIcon": "Calendar icon",
+    "minValue": "min.",
+    "maxValue": "max.",
+    "noData": "No data available"
+  },
+  "copyLinkModal": {
+    "copyLink": "Copy link",
+    "altCopyLink": "Copy the link to the session you are viewing",
+    "confirmationMessage": "Copied"
+  },
+  "graph": {
+    "fiveMinutes": "5 MINUTES",
+    "oneHour": "1 HOUR",
+    "24Hours": "24 HOURS",
+    "oneWeek": "1 WEEK",
+    "oneMonth": "1 MONTH",
+    "all": "ALL"
+  },
+  "alert": {
+    "linkCopied": "Link copied to clipboard",
+    "linkShortenedFailed": "Failed to shorten link"
+  },
+  "filters": {
+    "filters": "filters",
+    "altFiltersIcon": "Filters icon",
+    "mobileSessions": "mobile",
+    "fixedSessions": "fixed",
+    "editFilters": "edit filters",
+    "showSessions": "show sessions",
+    "mobileFixedInfo": "The mobile tab displays measurements from mobile sessions. When recording mobile sessions, measurements are created, timestamped, and geolocated once per second. Average values for the duration of the session are displayed inside the session map markers. The fixed tab displays measurements from fixed sessions. When recording fixed sessions, geocoordinates are fixed to a set location. The most recent measurement is displayed inside the session map markers.",
+
+    "profileNamesInfo": "Enter a profile name or names to filter the sessions by profile name.",
+    "tagNamesInfo": "Enter a tag or tags to filter the sessions by tags. Tags are keywords assigned to sessions.",
+    "profileNames": "profile names",
+    "tags": "tags",
+
+    "crowdMapLabel": "crowdMap",
+    "crowdMapInfo": "The CrowdMap averages together all the measurements from all the sessions listed on the sessions list and displays these averages as colored grid cells. The color of each grid cell corresponds to the average intensity of all the measurements recorded in that area. Click on a grid cell to view the underlying data.",
+    "crowdMapGridCellSizeHeader": "grid cell size",
+    "on": "on",
+    "off": "off",
+
+    "parameterInfo": "The parameter field describes the broad category of environmental or physiological measurements being recorded. The AirCasting platform is device agnostic i.e. it will ingest and display data from any instrument that formats and communicates data according to our formatting and communications protocol.",
+    "parameter": "parameter",
+    "customParameters": "custom parameters",
+    "selectParameter": "select parameter",
+    "selectParameterDescription": "The parameter field describes the broad category of environmental or physiological measurements being recorded. The AirCasting platform is device agnostic i.e. it will ingest and display data from any instrument that formats and communicates data according to our formatting and communications protocol.",
+    "back": "back",
+    "seeMore": "see more",
+    "seeLess": "see less",
+    "showCustomParameters": "show custom parameters",
+    "selectCustomParameter": "select custom parameter",
+    "searchCustomParameters": "Search for a custom parameters",
+    "sensor": "sensor",
+    "sensorInfo": "The sensor field describes the specific make and model of the sensor that is creating measurements.",
+    "customSensors": "custom sensors",
+    "selectSensor": "select sensor",
+    "selectCustomSensor": "select custom sensor",
+    "searchCustomSensors": "Search for a custom sensors",
+    "selectSensorsDescription": "The sensor field describes the specific make and model of the sensor that is creating measurements.",
+    "showCustomSensors": "show custom sensors",
+    "placementOfStations": "placement of stations",
+    "indoor": "indoor",
+    "outdoor": "outdoor",
+    "indoorInfo": "Outdoor sessions are recorded by instruments located outdoors. Indoor sessions are recorded by instruments located indoors. Indoor sessions do not include geocoordinates and are therefore not geolocated on the map.",
+    "indoorMapInfo": "For privacy, indoor sessions aren't mapped.",
+    "nonAirbeamIndoor": "Switch to an AirBeam sensor to display results.",
+    "indoorMapOverlay": "Indoor sessions aren't mapped. To graph indoor sessions, select from the sessions list.",
+    "dormantToggleLabel": "dormant stations",
+    "dormantInfo": "Fixed sessions that have submitted a measurement in the past 24 hours are considered active. Fixed sessions that have not submitted measurements in the past 24 hours are considered dormant.",
+    "yearPickerHeader": "timeframe",
+    "yearPickerInfo": "Enter a time frame to view sessions that include measurements with corresponding timestamps."
+  },
+  "timelapse": {
+    "readOnly": "Close timelapse to interact with the map.",
+    "altRewind": "Rewind icon",
+    "altFastForward": "Fast forward icon",
+    "altPlay": "Play icon",
+    "altPause": "Pause icon",
+    "altSkipLeft": "Skip left icon",
+    "altSkipRight": "Skip right icon",
+    "timeRange": {
+      "label": "Time range",
+      "7days": "7 days",
+      "3days": "3 days",
+      "24hours": "24 hours"
+    }
+  },
+  "redirectPage": {
+    "header": "Redirecting to the new AirCasting map",
+    "message": "We have launched a brand-new version of our map with improved features and a better user experience! You will be automatically redirected to the new site in a few seconds. If the redirection does not happen, please click button to go to the new version. Thank you for your understanding and enjoy exploring our updated map!",
+    "button": "Go to the new map"
+  }
+}

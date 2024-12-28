@@ -1,0 +1,14 @@
+.tippy-content {
+  input {
+    border: 1px solid #ddd;
+    margin: 0.5em 0;
+  }
+}
+
+[data-tippy-content] {
+  margin: -12px;
+  padding: 12px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
