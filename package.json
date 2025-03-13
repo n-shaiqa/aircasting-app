@@ -11,7 +11,7 @@
     "test": "jest --testPathPattern=\"app/javascript/react/.*\\.test\\.tsx$\""
   },
   "dependencies": {
-    "@babel/core": "^7.16.0",
+    "@babel/core": "^7.26.10",
     "@babel/plugin-transform-runtime": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
     "@googlemaps/markerclusterer": "2.5.3",
@@ -20,7 +20,7 @@
     "@sentry/tracing": "^7.114.0",
     "@sentry/webpack-plugin": "^2.22.4",
     "@vis.gl/react-google-maps": "^1.2.0",
-    "axios": "^1.6.8",
+    "axios": "^1.8.2",
     "babel-loader": "^8.2.3",
     "clipboard": "^2.0.4",
     "coffee-loader": "^4.0.0",
