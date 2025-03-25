@@ -28,7 +28,7 @@ gem 'pg'
 gem 'progress', require: false
 gem 'pry-rails'
 gem 'rack-cors'
-gem 'rails', '~> 6.1.7'
+gem 'rails', '~> 7.0.0'
 gem 'rake'
 gem 'rb-gsl', '1.16.0.6'
 gem 'responders'
