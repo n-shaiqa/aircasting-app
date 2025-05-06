@@ -73,7 +73,7 @@ end
 
 group :test do
   gem 'capybara'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
 end
 
 group :production do
