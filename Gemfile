@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'a9n'
-gem 'activeadmin'
-gem 'activerecord-import'
-gem 'activerecord-postgis-adapter'
-gem 'acts-as-taggable-on'
+gem 'activeadmin', '>= 2.13.0'
+gem 'activerecord-import', '>= 1.4.0'
+gem 'activerecord-postgis-adapter', '>= 9.0.0'
+gem 'acts-as-taggable-on', '>= 10.0.0'
 gem 'aws-sdk', '~> 3', require: false
 gem 'bcrypt_pbkdf', require: false
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -15,7 +15,7 @@ gem 'dry-struct'
 gem 'dry-validation'
 gem 'ed25519', require: false
 gem 'flipper'
-gem 'flipper-active_record'
+gem 'flipper-active_record', '>= 1.2.0'
 gem 'geocoder', '~> 1.2'
 gem 'haml'
 gem 'honeybadger'
@@ -28,7 +28,7 @@ gem 'pg'
 gem 'progress', require: false
 gem 'pry-rails'
 gem 'rack-cors'
-gem 'rails', '~> 6.1.7'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 gem 'rake'
 gem 'rb-gsl', '1.16.0.6'
 gem 'responders'
