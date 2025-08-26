@@ -1502,7 +1502,7 @@ GEM
       descendants_tracker (~> 0.0.1)
     colored (1.2)
     concurrent-ruby (1.1.10)
-    connection_pool (2.3.0)
+    connection_pool (2.5.3)
     crack (1.0.0)
       bigdecimal
       rexml
@@ -1704,7 +1704,7 @@ GEM
     public_suffix (4.0.6)
     raabro (1.4.0)
     racc (1.6.2)
-    rack (2.2.7)
+    rack (2.2.17)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
     rack-test (2.0.2)
@@ -1751,7 +1751,7 @@ GEM
       gsl
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    redis (4.8.0)
+    redis (4.8.1)
     reek (6.0.6)
       kwalify (~> 0.7.0)
       parser (~> 3.0.0)
@@ -1811,11 +1811,11 @@ GEM
     sexp_processor (4.16.0)
     shoulda-matchers (5.1.0)
       activesupport (>= 5.2.0)
-    sidekiq (6.5.7)
-      connection_pool (>= 2.2.5)
+    sidekiq (6.5.12)
+      connection_pool (>= 2.2.5, < 3)
       rack (~> 2.0)
       redis (>= 4.5.0, < 5)
-    sidekiq-failures (1.0.4)
+    sidekiq-failures (1.1.0)
       sidekiq (>= 4.0.0)
     sidekiq-scheduler (4.0.2)
       redis (>= 4.2.0)
@@ -1952,7 +1952,7 @@ DEPENDENCIES
   sassc-rails
   shoulda-matchers
   sidekiq (< 7)
-  sidekiq-failures
+  sidekiq-failures (>= 1.1.0)
   sidekiq-scheduler (~> 4.0)
   sidekiq-unique-jobs (~> 7.1)
   test-unit (~> 3.0)
