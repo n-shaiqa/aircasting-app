@@ -5,7 +5,7 @@ gem 'activeadmin'
 gem 'activerecord-import'
 gem 'activerecord-postgis-adapter'
 gem 'acts-as-taggable-on'
-gem 'aws-sdk', '~> 3', require: false
+gem 'aws-sdk', '~> 3', '>= 3.2.0', require: false
 gem 'bcrypt_pbkdf', require: false
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'colored', require: false
