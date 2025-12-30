@@ -1507,6 +1507,7 @@ GEM
       bigdecimal
       rexml
     crass (1.0.6)
+    csv (3.3.5)
     daemons (1.4.0)
     date (3.3.3)
     descendants_tracker (0.0.4)
@@ -1603,7 +1604,8 @@ GEM
       activesupport (>= 5.2)
     hashdiff (1.1.0)
     honeybadger (4.9.0)
-    httparty (0.21.0)
+    httparty (0.24.0)
+      csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     i18n (1.12.0)
@@ -1657,11 +1659,12 @@ GEM
     mimemagic (0.3.10)
       nokogiri (~> 1)
       rake
-    mini_mime (1.1.2)
+    mini_mime (1.1.5)
     mini_portile2 (2.8.1)
     minitest (5.17.0)
     msgpack (1.4.2)
-    multi_xml (0.6.0)
+    multi_xml (0.7.1)
+      bigdecimal (~> 3.1)
     net-imap (0.3.4)
       date
       net-protocol
@@ -1929,7 +1932,7 @@ DEPENDENCIES
   geocoder (~> 1.2)
   haml
   honeybadger
-  httparty
+  httparty (>= 0.24.0)
   jsbundling-rails
   listen
   newrelic_rpm
@@ -1968,4 +1971,4 @@ DEPENDENCIES
   yui-compressor
 
 BUNDLED WITH
-   2.3.4
+   2.3.27
